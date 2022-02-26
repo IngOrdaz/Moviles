@@ -70,6 +70,14 @@
         app:layout_constraintLeft_toRightOf="@id/buttonMID"
         app:layout_constraintRight_toRightOf="parent"
         />
-
+    <Button
+        android:id="@+id/buttonLast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LastBot"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMID"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
